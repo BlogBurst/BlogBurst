@@ -19,7 +19,7 @@ We'd also love PRs. If you're thinking of a large PR, we advise opening up an is
 
 ## How to make a Pull Request
 
-**1.** Fork the repository by clicking on the <a href="https://github.com/BlogBurst/BlogBurst/issues"><img src="https://avatars.githubusercontent.com/u/126511375?s=200&v=4"></a> symbol at the top right corner.
+**1.** Fork the repository by clicking on the <a href="https://github.com/BlogBurst/BlogBurst/issues"><img src="https://avatars.githubusercontent.com/u/126511375?s=200&v=4" height=20 width=20></a> symbol at the top right corner.
 
 **2.** Clone the forked repository.
 ```
