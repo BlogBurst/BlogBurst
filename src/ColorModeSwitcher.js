@@ -13,7 +13,7 @@ const ColorModeSwitcher = props => {
       pos={"fixed"}
       top={"4"}
       right={"4"}//in chakra we use unit i.e 1unit =4px
-      color="current"
+      color={'whiteAlpha.900'}
       onClick={toggleColorMode}
       icon={<SwitchIcon />}
       {...props}
