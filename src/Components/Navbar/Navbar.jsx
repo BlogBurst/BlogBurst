@@ -13,11 +13,11 @@ const Navbar = () => {
       justifyContent={"start"}
     >
        
-      <Button variant={"outline"} color={"teal.300"} >
+      <Button variant={"outline"} color={"teal.400"} >
         <Link to="/login">Login</Link>
       </Button>
 
-      <Button variant={"outline"} color={"teal.300"} >
+      <Button variant={"outline"} color={"teal.400"} >
         <Link to="/signup">Signup</Link>
       </Button>
 
