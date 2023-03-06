@@ -1,5 +1,5 @@
-import "footer.css";
+import "./footer.css";
 
 export default function Footer() {
-    
+
 }
