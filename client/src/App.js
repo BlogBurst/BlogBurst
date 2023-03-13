@@ -1,25 +1,41 @@
-import logo from './logo.svg';
+import React from 'react'
+import PrimarySearchAppBar from './components/Header/PrimarySearchAppBar'
+import BlogCard from './components/BlogCard/BlogCard'
+import BlogDetails from './components/BlogDetails/BlogDetails'
 import './App.css';
-
-function App() {
+const App = () => {
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    
+    <>
+      <PrimarySearchAppBar/>
+      <div>
+        <h2>
+          TRENDING BLOGS
+        </h2>
+      </div>
+      <div className='blogCards'>
+      <BlogCard/>
+      <BlogCard/>
+      <BlogCard/>
+      </div>
+
+      <div>
+        <h2>
+          RECENT BLOGS
+          </h2>
+      </div>
+      <div className='blogDetails'>
+      <BlogDetails/>
+      <BlogDetails/>
+      <BlogDetails/>
+      <BlogDetails/>
+      </div>
+
+      
+    </> // can we use fragment?
+    // <PrimarySearchAppBar/> use this
+  )
 }
 
-export default App;
+export default App
